@@ -1,12 +1,12 @@
 {
   "note": "First-party paper-trading roster for aitradingcompetition.com's Bot Analysis Arena. Simulated money on real market prices. Not financial advice. Trade-level ledgers (closedTrades/openPositions) are published only for the five accounts arena-trades covers; every other bot's return/equity is still first-party, from public-arena.",
-  "generatedAt": "2026-09-25T09:40:21.872Z",
-  "standingsUpdatedAt": "2026-09-24T20:00:00.000Z",
-  "arenaUpdatedAt": "2026-09-24T20:00:00.000Z",
+  "generatedAt": "2026-09-26T09:40:21.093Z",
+  "standingsUpdatedAt": "2026-09-25T20:00:00.000Z",
+  "arenaUpdatedAt": "2026-09-25T20:00:00.000Z",
   "seasonStart": "2026-07-27",
   "benchmark": {
     "label": "S&P 500 (SPY)",
-    "returnPct": 3.82
+    "returnPct": 4.39
   },
   "competitors": [
     {
@@ -17,8 +17,8 @@
       "doctrine": "horizon",
       "model": "grok",
       "since": "2026-07-28",
-      "equity": 145636.97,
-      "returnPct": 45.64,
+      "equity": 144816.97,
+      "returnPct": 44.82,
       "returnStartAt": "2026-07-28",
       "equityAsOf": null,
       "returnContext": {
@@ -39,8 +39,8 @@
       "doctrine": "horizon",
       "model": "claude",
       "since": "2026-07-27",
-      "equity": 125903.5,
-      "returnPct": 25.9,
+      "equity": 125314.47,
+      "returnPct": 25.31,
       "returnStartAt": "2026-07-27",
       "equityAsOf": null,
       "returnContext": {
@@ -61,8 +61,8 @@
       "doctrine": "horizon",
       "model": "openai",
       "since": "2026-07-27",
-      "equity": 118180.81,
-      "returnPct": 18.18,
+      "equity": 117504.21,
+      "returnPct": 17.5,
       "returnStartAt": "2026-07-27",
       "equityAsOf": null,
       "returnContext": {
@@ -83,8 +83,8 @@
       "doctrine": "fixed",
       "model": null,
       "since": "2026-07-27",
-      "equity": 113287.03,
-      "returnPct": 13.29,
+      "equity": 110151.65,
+      "returnPct": 10.15,
       "returnStartAt": "2026-07-27",
       "equityAsOf": null,
       "returnContext": {
@@ -94,7 +94,7 @@
         "text": "Annualized: unavailable",
         "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
       },
-      "closedTrades": 2269,
+      "closedTrades": 2328,
       "openPositions": 16
     },
     {
@@ -105,38 +105,16 @@
       "doctrine": "tactical",
       "model": "grok",
       "since": "2026-08-07",
-      "equity": 109402.02,
-      "returnPct": 9.4,
+      "equity": 109938.99,
+      "returnPct": 9.94,
       "returnStartAt": "2026-08-07",
-      "equityAsOf": "2026-09-24T20:00:00.000Z",
+      "equityAsOf": "2026-09-25T20:00:00.000Z",
       "returnContext": {
         "status": "short-record",
         "annualizedPct": null,
-        "days": 48,
-        "text": "Annualized: not yet · 48 days",
-        "detail": "Recorded window: 2026-08-07 to 2026-09-24T20:00:00.000Z. Only 48 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
-      },
-      "closedTrades": null,
-      "openPositions": null
-    },
-    {
-      "id": "lab-smc-claude",
-      "key": "lab-smc-claude",
-      "label": "Structure & zones · Claude",
-      "name": "Structure & zones · Claude",
-      "doctrine": "smc",
-      "model": "claude",
-      "since": "2026-08-24",
-      "equity": 107007.86,
-      "returnPct": 7.01,
-      "returnStartAt": "2026-08-24",
-      "equityAsOf": null,
-      "returnContext": {
-        "status": "unavailable",
-        "annualizedPct": null,
-        "days": null,
-        "text": "Annualized: unavailable",
-        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
+        "days": 49,
+        "text": "Annualized: not yet · 49 days",
+        "detail": "Recorded window: 2026-08-07 to 2026-09-25T20:00:00.000Z. Only 49 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
       },
       "closedTrades": null,
       "openPositions": null
@@ -149,8 +127,8 @@
       "doctrine": "smc",
       "model": "openai",
       "since": "2026-08-24",
-      "equity": 106818.57,
-      "returnPct": 6.82,
+      "equity": 107810.46,
+      "returnPct": 7.81,
       "returnStartAt": "2026-08-24",
       "equityAsOf": null,
       "returnContext": {
@@ -164,6 +142,72 @@
       "openPositions": null
     },
     {
+      "id": "lab-smc-claude",
+      "key": "lab-smc-claude",
+      "label": "Structure & zones · Claude",
+      "name": "Structure & zones · Claude",
+      "doctrine": "smc",
+      "model": "claude",
+      "since": "2026-08-24",
+      "equity": 107044.48,
+      "returnPct": 7.04,
+      "returnStartAt": "2026-08-24",
+      "equityAsOf": null,
+      "returnContext": {
+        "status": "unavailable",
+        "annualizedPct": null,
+        "days": null,
+        "text": "Annualized: unavailable",
+        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
+      },
+      "closedTrades": null,
+      "openPositions": null
+    },
+    {
+      "id": "openai",
+      "key": "openai",
+      "label": "Core · OpenAI GPT-5.6",
+      "name": "Core · OpenAI GPT-5.6",
+      "doctrine": "core",
+      "model": "openai",
+      "since": "2026-07-27",
+      "equity": 106195.19,
+      "returnPct": 6.2,
+      "returnStartAt": "2026-07-27",
+      "equityAsOf": null,
+      "returnContext": {
+        "status": "unavailable",
+        "annualizedPct": null,
+        "days": null,
+        "text": "Annualized: unavailable",
+        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
+      },
+      "closedTrades": 392,
+      "openPositions": 0
+    },
+    {
+      "id": "lab-superbot-grok",
+      "key": "lab-superbot-grok",
+      "label": "Super Bot · Grok",
+      "name": "Super Bot · Grok",
+      "doctrine": "superbot",
+      "model": "grok",
+      "since": "2026-09-02",
+      "equity": 106135.27,
+      "returnPct": 6.14,
+      "returnStartAt": "2026-09-02",
+      "equityAsOf": "2026-09-25T20:00:00.000Z",
+      "returnContext": {
+        "status": "short-record",
+        "annualizedPct": null,
+        "days": 23,
+        "text": "Annualized: not yet · 23 days",
+        "detail": "Recorded window: 2026-09-02 to 2026-09-25T20:00:00.000Z. Only 23 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
+      },
+      "closedTrades": null,
+      "openPositions": null
+    },
+    {
       "id": "lab-tactical-openai",
       "key": "lab-tactical-openai",
       "label": "Tactical · ChatGPT",
@@ -171,8 +215,8 @@
       "doctrine": "tactical",
       "model": "openai",
       "since": "2026-08-07",
-      "equity": 106428.23,
-      "returnPct": 6.43,
+      "equity": 105998.17,
+      "returnPct": 6,
       "returnStartAt": "2026-08-07",
       "equityAsOf": null,
       "returnContext": {
@@ -186,50 +230,6 @@
       "openPositions": null
     },
     {
-      "id": "lab-superbot-grok",
-      "key": "lab-superbot-grok",
-      "label": "Super Bot · Grok",
-      "name": "Super Bot · Grok",
-      "doctrine": "superbot",
-      "model": "grok",
-      "since": "2026-09-02",
-      "equity": 106170.74,
-      "returnPct": 6.17,
-      "returnStartAt": "2026-09-02",
-      "equityAsOf": "2026-09-24T20:00:00.000Z",
-      "returnContext": {
-        "status": "short-record",
-        "annualizedPct": null,
-        "days": 22,
-        "text": "Annualized: not yet · 22 days",
-        "detail": "Recorded window: 2026-09-02 to 2026-09-24T20:00:00.000Z. Only 22 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
-      },
-      "closedTrades": null,
-      "openPositions": null
-    },
-    {
-      "id": "openai",
-      "key": "openai",
-      "label": "Core · OpenAI GPT-5.6",
-      "name": "Core · OpenAI GPT-5.6",
-      "doctrine": "core",
-      "model": "openai",
-      "since": "2026-07-27",
-      "equity": 106041,
-      "returnPct": 6.04,
-      "returnStartAt": "2026-07-27",
-      "equityAsOf": null,
-      "returnContext": {
-        "status": "unavailable",
-        "annualizedPct": null,
-        "days": null,
-        "text": "Annualized: unavailable",
-        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
-      },
-      "closedTrades": 384,
-      "openPositions": 0
-    },
-    {
       "id": "lab-weather-claude",
       "key": "lab-weather-claude",
       "label": "Weather-aware · Claude",
@@ -237,8 +237,8 @@
       "doctrine": "weather",
       "model": "claude",
       "since": "2026-09-02",
-      "equity": 105367.41,
-      "returnPct": 5.37,
+      "equity": 105591.66,
+      "returnPct": 5.59,
       "returnStartAt": "2026-09-02",
       "equityAsOf": null,
       "returnContext": {
@@ -259,16 +259,38 @@
       "doctrine": "tactical",
       "model": "claude",
       "since": "2026-08-07",
-      "equity": 105108.93,
-      "returnPct": 5.11,
+      "equity": 104187.04,
+      "returnPct": 4.19,
       "returnStartAt": "2026-08-07",
-      "equityAsOf": "2026-09-24T20:00:00.000Z",
+      "equityAsOf": "2026-09-25T20:00:00.000Z",
       "returnContext": {
         "status": "short-record",
         "annualizedPct": null,
-        "days": 48,
-        "text": "Annualized: not yet · 48 days",
-        "detail": "Recorded window: 2026-08-07 to 2026-09-24T20:00:00.000Z. Only 48 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
+        "days": 49,
+        "text": "Annualized: not yet · 49 days",
+        "detail": "Recorded window: 2026-08-07 to 2026-09-25T20:00:00.000Z. Only 49 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
+      },
+      "closedTrades": null,
+      "openPositions": null
+    },
+    {
+      "id": "lab-moonshot-openai",
+      "key": "lab-moonshot-openai",
+      "label": "Moonshot · ChatGPT",
+      "name": "Moonshot · ChatGPT",
+      "doctrine": "moonshot",
+      "model": "openai",
+      "since": "2026-08-31",
+      "equity": 103765.36,
+      "returnPct": 3.77,
+      "returnStartAt": "2026-08-31",
+      "equityAsOf": null,
+      "returnContext": {
+        "status": "unavailable",
+        "annualizedPct": null,
+        "days": null,
+        "text": "Annualized: unavailable",
+        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
       },
       "closedTrades": null,
       "openPositions": null
@@ -281,8 +303,8 @@
       "doctrine": "horizon",
       "model": "gemini",
       "since": "2026-08-04",
-      "equity": 103343.77,
-      "returnPct": 3.34,
+      "equity": 102880.06,
+      "returnPct": 2.88,
       "returnStartAt": "2026-08-04",
       "equityAsOf": null,
       "returnContext": {
@@ -303,31 +325,9 @@
       "doctrine": "learner",
       "model": "grok",
       "since": "2026-09-03",
-      "equity": 102459.91,
-      "returnPct": 2.46,
+      "equity": 102169.65,
+      "returnPct": 2.17,
       "returnStartAt": "2026-09-03",
-      "equityAsOf": null,
-      "returnContext": {
-        "status": "unavailable",
-        "annualizedPct": null,
-        "days": null,
-        "text": "Annualized: unavailable",
-        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
-      },
-      "closedTrades": null,
-      "openPositions": null
-    },
-    {
-      "id": "lab-moonshot-openai",
-      "key": "lab-moonshot-openai",
-      "label": "Moonshot · ChatGPT",
-      "name": "Moonshot · ChatGPT",
-      "doctrine": "moonshot",
-      "model": "openai",
-      "since": "2026-08-31",
-      "equity": 102317.7,
-      "returnPct": 2.32,
-      "returnStartAt": "2026-08-31",
       "equityAsOf": null,
       "returnContext": {
         "status": "unavailable",
@@ -347,8 +347,8 @@
       "doctrine": "learner",
       "model": "openai",
       "since": "2026-09-03",
-      "equity": 102256.97,
-      "returnPct": 2.26,
+      "equity": 101705.88,
+      "returnPct": 1.71,
       "returnStartAt": "2026-09-03",
       "equityAsOf": null,
       "returnContext": {
@@ -362,16 +362,16 @@
       "openPositions": null
     },
     {
-      "id": "lab-tactical-gemini",
-      "key": "lab-tactical-gemini",
-      "label": "Tactical · Gemini",
-      "name": "Tactical · Gemini",
-      "doctrine": "tactical",
-      "model": "gemini",
-      "since": "2026-08-07",
-      "equity": 102009.18,
-      "returnPct": 2.01,
-      "returnStartAt": "2026-08-07",
+      "id": "grok",
+      "key": "grok",
+      "label": "Core · Grok 4.7",
+      "name": "Core · Grok 4.7",
+      "doctrine": "core",
+      "model": "grok",
+      "since": "2026-07-27",
+      "equity": 101064.89,
+      "returnPct": 1.06,
+      "returnStartAt": "2026-07-27",
       "equityAsOf": null,
       "returnContext": {
         "status": "unavailable",
@@ -380,8 +380,8 @@
         "text": "Annualized: unavailable",
         "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
       },
-      "closedTrades": null,
-      "openPositions": null
+      "closedTrades": 507,
+      "openPositions": 0
     },
     {
       "id": "lab-weather-grok",
@@ -391,16 +391,16 @@
       "doctrine": "weather",
       "model": "grok",
       "since": "2026-09-02",
-      "equity": 101234.62,
-      "returnPct": 1.23,
+      "equity": 100887.5,
+      "returnPct": 0.89,
       "returnStartAt": "2026-09-02",
-      "equityAsOf": "2026-09-24T20:00:00.000Z",
+      "equityAsOf": "2026-09-25T20:00:00.000Z",
       "returnContext": {
         "status": "short-record",
         "annualizedPct": null,
-        "days": 22,
-        "text": "Annualized: not yet · 22 days",
-        "detail": "Recorded window: 2026-09-02 to 2026-09-24T20:00:00.000Z. Only 22 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
+        "days": 23,
+        "text": "Annualized: not yet · 23 days",
+        "detail": "Recorded window: 2026-09-02 to 2026-09-25T20:00:00.000Z. Only 23 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
       },
       "closedTrades": null,
       "openPositions": null
@@ -413,8 +413,8 @@
       "doctrine": "core",
       "model": "gemini",
       "since": "2026-08-04",
-      "equity": 101064.33,
-      "returnPct": 1.06,
+      "equity": 100883.97,
+      "returnPct": 0.88,
       "returnStartAt": "2026-08-04",
       "equityAsOf": null,
       "returnContext": {
@@ -424,30 +424,8 @@
         "text": "Annualized: unavailable",
         "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
       },
-      "closedTrades": 496,
-      "openPositions": 6
-    },
-    {
-      "id": "grok",
-      "key": "grok",
-      "label": "Core · Grok 4.7",
-      "name": "Core · Grok 4.7",
-      "doctrine": "core",
-      "model": "grok",
-      "since": "2026-07-27",
-      "equity": 100864.26,
-      "returnPct": 0.86,
-      "returnStartAt": "2026-07-27",
-      "equityAsOf": null,
-      "returnContext": {
-        "status": "unavailable",
-        "annualizedPct": null,
-        "days": null,
-        "text": "Annualized: unavailable",
-        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
-      },
-      "closedTrades": 492,
-      "openPositions": 3
+      "closedTrades": 508,
+      "openPositions": 0
     },
     {
       "id": "lab-superbot-openai",
@@ -457,8 +435,8 @@
       "doctrine": "superbot",
       "model": "openai",
       "since": "2026-09-09",
-      "equity": 100084.05,
-      "returnPct": 0.08,
+      "equity": 100298.14,
+      "returnPct": 0.3,
       "returnStartAt": "2026-09-09",
       "equityAsOf": null,
       "returnContext": {
@@ -479,9 +457,31 @@
       "doctrine": "adaptive",
       "model": "grok",
       "since": "2026-09-21",
-      "equity": 99997.86,
-      "returnPct": 0,
+      "equity": 100014.95,
+      "returnPct": 0.01,
       "returnStartAt": "2026-09-21",
+      "equityAsOf": null,
+      "returnContext": {
+        "status": "unavailable",
+        "annualizedPct": null,
+        "days": null,
+        "text": "Annualized: unavailable",
+        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
+      },
+      "closedTrades": null,
+      "openPositions": null
+    },
+    {
+      "id": "lab-tactical-gemini",
+      "key": "lab-tactical-gemini",
+      "label": "Tactical · Gemini",
+      "name": "Tactical · Gemini",
+      "doctrine": "tactical",
+      "model": "gemini",
+      "since": "2026-08-07",
+      "equity": 99836.52,
+      "returnPct": -0.16,
+      "returnStartAt": "2026-08-07",
       "equityAsOf": null,
       "returnContext": {
         "status": "unavailable",
@@ -501,8 +501,8 @@
       "doctrine": "fivestock",
       "model": "claude",
       "since": "2026-09-10",
-      "equity": 99158.3,
-      "returnPct": -0.84,
+      "equity": 99209.77,
+      "returnPct": -0.79,
       "returnStartAt": "2026-09-10",
       "equityAsOf": null,
       "returnContext": {
@@ -523,8 +523,8 @@
       "doctrine": "astra",
       "model": "composite",
       "since": "2026-09-08",
-      "equity": 99005.88,
-      "returnPct": -0.99,
+      "equity": 98892.99,
+      "returnPct": -1.11,
       "returnStartAt": "2026-09-08",
       "equityAsOf": null,
       "returnContext": {
@@ -545,8 +545,8 @@
       "doctrine": "core",
       "model": "claude",
       "since": "2026-07-27",
-      "equity": 95737.01,
-      "returnPct": -4.26,
+      "equity": 94990.78,
+      "returnPct": -5.01,
       "returnStartAt": "2026-07-27",
       "equityAsOf": null,
       "returnContext": {
@@ -556,8 +556,8 @@
         "text": "Annualized: unavailable",
         "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
       },
-      "closedTrades": 814,
-      "openPositions": 6
+      "closedTrades": 839,
+      "openPositions": 0
     }
   ],
   "bots": [
@@ -569,8 +569,8 @@
       "doctrine": "horizon",
       "model": "grok",
       "since": "2026-07-28",
-      "equity": 145636.97,
-      "returnPct": 45.64,
+      "equity": 144816.97,
+      "returnPct": 44.82,
       "returnStartAt": "2026-07-28",
       "equityAsOf": null,
       "returnContext": {
@@ -591,8 +591,8 @@
       "doctrine": "horizon",
       "model": "claude",
       "since": "2026-07-27",
-      "equity": 125903.5,
-      "returnPct": 25.9,
+      "equity": 125314.47,
+      "returnPct": 25.31,
       "returnStartAt": "2026-07-27",
       "equityAsOf": null,
       "returnContext": {
@@ -613,8 +613,8 @@
       "doctrine": "horizon",
       "model": "openai",
       "since": "2026-07-27",
-      "equity": 118180.81,
-      "returnPct": 18.18,
+      "equity": 117504.21,
+      "returnPct": 17.5,
       "returnStartAt": "2026-07-27",
       "equityAsOf": null,
       "returnContext": {
@@ -635,8 +635,8 @@
       "doctrine": "fixed",
       "model": null,
       "since": "2026-07-27",
-      "equity": 113287.03,
-      "returnPct": 13.29,
+      "equity": 110151.65,
+      "returnPct": 10.15,
       "returnStartAt": "2026-07-27",
       "equityAsOf": null,
       "returnContext": {
@@ -646,7 +646,7 @@
         "text": "Annualized: unavailable",
         "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
       },
-      "closedTrades": 2269,
+      "closedTrades": 2328,
       "openPositions": 16
     },
     {
@@ -657,38 +657,16 @@
       "doctrine": "tactical",
       "model": "grok",
       "since": "2026-08-07",
-      "equity": 109402.02,
-      "returnPct": 9.4,
+      "equity": 109938.99,
+      "returnPct": 9.94,
       "returnStartAt": "2026-08-07",
-      "equityAsOf": "2026-09-24T20:00:00.000Z",
+      "equityAsOf": "2026-09-25T20:00:00.000Z",
       "returnContext": {
         "status": "short-record",
         "annualizedPct": null,
-        "days": 48,
-        "text": "Annualized: not yet · 48 days",
-        "detail": "Recorded window: 2026-08-07 to 2026-09-24T20:00:00.000Z. Only 48 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
-      },
-      "closedTrades": null,
-      "openPositions": null
-    },
-    {
-      "id": "lab-smc-claude",
-      "key": "lab-smc-claude",
-      "label": "Structure & zones · Claude",
-      "name": "Structure & zones · Claude",
-      "doctrine": "smc",
-      "model": "claude",
-      "since": "2026-08-24",
-      "equity": 107007.86,
-      "returnPct": 7.01,
-      "returnStartAt": "2026-08-24",
-      "equityAsOf": null,
-      "returnContext": {
-        "status": "unavailable",
-        "annualizedPct": null,
-        "days": null,
-        "text": "Annualized: unavailable",
-        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
+        "days": 49,
+        "text": "Annualized: not yet · 49 days",
+        "detail": "Recorded window: 2026-08-07 to 2026-09-25T20:00:00.000Z. Only 49 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
       },
       "closedTrades": null,
       "openPositions": null
@@ -701,8 +679,8 @@
       "doctrine": "smc",
       "model": "openai",
       "since": "2026-08-24",
-      "equity": 106818.57,
-      "returnPct": 6.82,
+      "equity": 107810.46,
+      "returnPct": 7.81,
       "returnStartAt": "2026-08-24",
       "equityAsOf": null,
       "returnContext": {
@@ -716,6 +694,72 @@
       "openPositions": null
     },
     {
+      "id": "lab-smc-claude",
+      "key": "lab-smc-claude",
+      "label": "Structure & zones · Claude",
+      "name": "Structure & zones · Claude",
+      "doctrine": "smc",
+      "model": "claude",
+      "since": "2026-08-24",
+      "equity": 107044.48,
+      "returnPct": 7.04,
+      "returnStartAt": "2026-08-24",
+      "equityAsOf": null,
+      "returnContext": {
+        "status": "unavailable",
+        "annualizedPct": null,
+        "days": null,
+        "text": "Annualized: unavailable",
+        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
+      },
+      "closedTrades": null,
+      "openPositions": null
+    },
+    {
+      "id": "openai",
+      "key": "openai",
+      "label": "Core · OpenAI GPT-5.6",
+      "name": "Core · OpenAI GPT-5.6",
+      "doctrine": "core",
+      "model": "openai",
+      "since": "2026-07-27",
+      "equity": 106195.19,
+      "returnPct": 6.2,
+      "returnStartAt": "2026-07-27",
+      "equityAsOf": null,
+      "returnContext": {
+        "status": "unavailable",
+        "annualizedPct": null,
+        "days": null,
+        "text": "Annualized: unavailable",
+        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
+      },
+      "closedTrades": 392,
+      "openPositions": 0
+    },
+    {
+      "id": "lab-superbot-grok",
+      "key": "lab-superbot-grok",
+      "label": "Super Bot · Grok",
+      "name": "Super Bot · Grok",
+      "doctrine": "superbot",
+      "model": "grok",
+      "since": "2026-09-02",
+      "equity": 106135.27,
+      "returnPct": 6.14,
+      "returnStartAt": "2026-09-02",
+      "equityAsOf": "2026-09-25T20:00:00.000Z",
+      "returnContext": {
+        "status": "short-record",
+        "annualizedPct": null,
+        "days": 23,
+        "text": "Annualized: not yet · 23 days",
+        "detail": "Recorded window: 2026-09-02 to 2026-09-25T20:00:00.000Z. Only 23 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
+      },
+      "closedTrades": null,
+      "openPositions": null
+    },
+    {
       "id": "lab-tactical-openai",
       "key": "lab-tactical-openai",
       "label": "Tactical · ChatGPT",
@@ -723,8 +767,8 @@
       "doctrine": "tactical",
       "model": "openai",
       "since": "2026-08-07",
-      "equity": 106428.23,
-      "returnPct": 6.43,
+      "equity": 105998.17,
+      "returnPct": 6,
       "returnStartAt": "2026-08-07",
       "equityAsOf": null,
       "returnContext": {
@@ -738,50 +782,6 @@
       "openPositions": null
     },
     {
-      "id": "lab-superbot-grok",
-      "key": "lab-superbot-grok",
-      "label": "Super Bot · Grok",
-      "name": "Super Bot · Grok",
-      "doctrine": "superbot",
-      "model": "grok",
-      "since": "2026-09-02",
-      "equity": 106170.74,
-      "returnPct": 6.17,
-      "returnStartAt": "2026-09-02",
-      "equityAsOf": "2026-09-24T20:00:00.000Z",
-      "returnContext": {
-        "status": "short-record",
-        "annualizedPct": null,
-        "days": 22,
-        "text": "Annualized: not yet · 22 days",
-        "detail": "Recorded window: 2026-09-02 to 2026-09-24T20:00:00.000Z. Only 22 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
-      },
-      "closedTrades": null,
-      "openPositions": null
-    },
-    {
-      "id": "openai",
-      "key": "openai",
-      "label": "Core · OpenAI GPT-5.6",
-      "name": "Core · OpenAI GPT-5.6",
-      "doctrine": "core",
-      "model": "openai",
-      "since": "2026-07-27",
-      "equity": 106041,
-      "returnPct": 6.04,
-      "returnStartAt": "2026-07-27",
-      "equityAsOf": null,
-      "returnContext": {
-        "status": "unavailable",
-        "annualizedPct": null,
-        "days": null,
-        "text": "Annualized: unavailable",
-        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
-      },
-      "closedTrades": 384,
-      "openPositions": 0
-    },
-    {
       "id": "lab-weather-claude",
       "key": "lab-weather-claude",
       "label": "Weather-aware · Claude",
@@ -789,8 +789,8 @@
       "doctrine": "weather",
       "model": "claude",
       "since": "2026-09-02",
-      "equity": 105367.41,
-      "returnPct": 5.37,
+      "equity": 105591.66,
+      "returnPct": 5.59,
       "returnStartAt": "2026-09-02",
       "equityAsOf": null,
       "returnContext": {
@@ -811,16 +811,38 @@
       "doctrine": "tactical",
       "model": "claude",
       "since": "2026-08-07",
-      "equity": 105108.93,
-      "returnPct": 5.11,
+      "equity": 104187.04,
+      "returnPct": 4.19,
       "returnStartAt": "2026-08-07",
-      "equityAsOf": "2026-09-24T20:00:00.000Z",
+      "equityAsOf": "2026-09-25T20:00:00.000Z",
       "returnContext": {
         "status": "short-record",
         "annualizedPct": null,
-        "days": 48,
-        "text": "Annualized: not yet · 48 days",
-        "detail": "Recorded window: 2026-08-07 to 2026-09-24T20:00:00.000Z. Only 48 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
+        "days": 49,
+        "text": "Annualized: not yet · 49 days",
+        "detail": "Recorded window: 2026-08-07 to 2026-09-25T20:00:00.000Z. Only 49 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
+      },
+      "closedTrades": null,
+      "openPositions": null
+    },
+    {
+      "id": "lab-moonshot-openai",
+      "key": "lab-moonshot-openai",
+      "label": "Moonshot · ChatGPT",
+      "name": "Moonshot · ChatGPT",
+      "doctrine": "moonshot",
+      "model": "openai",
+      "since": "2026-08-31",
+      "equity": 103765.36,
+      "returnPct": 3.77,
+      "returnStartAt": "2026-08-31",
+      "equityAsOf": null,
+      "returnContext": {
+        "status": "unavailable",
+        "annualizedPct": null,
+        "days": null,
+        "text": "Annualized: unavailable",
+        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
       },
       "closedTrades": null,
       "openPositions": null
@@ -833,8 +855,8 @@
       "doctrine": "horizon",
       "model": "gemini",
       "since": "2026-08-04",
-      "equity": 103343.77,
-      "returnPct": 3.34,
+      "equity": 102880.06,
+      "returnPct": 2.88,
       "returnStartAt": "2026-08-04",
       "equityAsOf": null,
       "returnContext": {
@@ -855,31 +877,9 @@
       "doctrine": "learner",
       "model": "grok",
       "since": "2026-09-03",
-      "equity": 102459.91,
-      "returnPct": 2.46,
+      "equity": 102169.65,
+      "returnPct": 2.17,
       "returnStartAt": "2026-09-03",
-      "equityAsOf": null,
-      "returnContext": {
-        "status": "unavailable",
-        "annualizedPct": null,
-        "days": null,
-        "text": "Annualized: unavailable",
-        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
-      },
-      "closedTrades": null,
-      "openPositions": null
-    },
-    {
-      "id": "lab-moonshot-openai",
-      "key": "lab-moonshot-openai",
-      "label": "Moonshot · ChatGPT",
-      "name": "Moonshot · ChatGPT",
-      "doctrine": "moonshot",
-      "model": "openai",
-      "since": "2026-08-31",
-      "equity": 102317.7,
-      "returnPct": 2.32,
-      "returnStartAt": "2026-08-31",
       "equityAsOf": null,
       "returnContext": {
         "status": "unavailable",
@@ -899,8 +899,8 @@
       "doctrine": "learner",
       "model": "openai",
       "since": "2026-09-03",
-      "equity": 102256.97,
-      "returnPct": 2.26,
+      "equity": 101705.88,
+      "returnPct": 1.71,
       "returnStartAt": "2026-09-03",
       "equityAsOf": null,
       "returnContext": {
@@ -914,16 +914,16 @@
       "openPositions": null
     },
     {
-      "id": "lab-tactical-gemini",
-      "key": "lab-tactical-gemini",
-      "label": "Tactical · Gemini",
-      "name": "Tactical · Gemini",
-      "doctrine": "tactical",
-      "model": "gemini",
-      "since": "2026-08-07",
-      "equity": 102009.18,
-      "returnPct": 2.01,
-      "returnStartAt": "2026-08-07",
+      "id": "grok",
+      "key": "grok",
+      "label": "Core · Grok 4.7",
+      "name": "Core · Grok 4.7",
+      "doctrine": "core",
+      "model": "grok",
+      "since": "2026-07-27",
+      "equity": 101064.89,
+      "returnPct": 1.06,
+      "returnStartAt": "2026-07-27",
       "equityAsOf": null,
       "returnContext": {
         "status": "unavailable",
@@ -932,8 +932,8 @@
         "text": "Annualized: unavailable",
         "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
       },
-      "closedTrades": null,
-      "openPositions": null
+      "closedTrades": 507,
+      "openPositions": 0
     },
     {
       "id": "lab-weather-grok",
@@ -943,16 +943,16 @@
       "doctrine": "weather",
       "model": "grok",
       "since": "2026-09-02",
-      "equity": 101234.62,
-      "returnPct": 1.23,
+      "equity": 100887.5,
+      "returnPct": 0.89,
       "returnStartAt": "2026-09-02",
-      "equityAsOf": "2026-09-24T20:00:00.000Z",
+      "equityAsOf": "2026-09-25T20:00:00.000Z",
       "returnContext": {
         "status": "short-record",
         "annualizedPct": null,
-        "days": 22,
-        "text": "Annualized: not yet · 22 days",
-        "detail": "Recorded window: 2026-09-02 to 2026-09-24T20:00:00.000Z. Only 22 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
+        "days": 23,
+        "text": "Annualized: not yet · 23 days",
+        "detail": "Recorded window: 2026-09-02 to 2026-09-25T20:00:00.000Z. Only 23 days of results. At least 365 calendar days are required. A short record is not a reliable guide to a year's return."
       },
       "closedTrades": null,
       "openPositions": null
@@ -965,8 +965,8 @@
       "doctrine": "core",
       "model": "gemini",
       "since": "2026-08-04",
-      "equity": 101064.33,
-      "returnPct": 1.06,
+      "equity": 100883.97,
+      "returnPct": 0.88,
       "returnStartAt": "2026-08-04",
       "equityAsOf": null,
       "returnContext": {
@@ -976,30 +976,8 @@
         "text": "Annualized: unavailable",
         "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
       },
-      "closedTrades": 496,
-      "openPositions": 6
-    },
-    {
-      "id": "grok",
-      "key": "grok",
-      "label": "Core · Grok 4.7",
-      "name": "Core · Grok 4.7",
-      "doctrine": "core",
-      "model": "grok",
-      "since": "2026-07-27",
-      "equity": 100864.26,
-      "returnPct": 0.86,
-      "returnStartAt": "2026-07-27",
-      "equityAsOf": null,
-      "returnContext": {
-        "status": "unavailable",
-        "annualizedPct": null,
-        "days": null,
-        "text": "Annualized: unavailable",
-        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
-      },
-      "closedTrades": 492,
-      "openPositions": 3
+      "closedTrades": 508,
+      "openPositions": 0
     },
     {
       "id": "lab-superbot-openai",
@@ -1009,8 +987,8 @@
       "doctrine": "superbot",
       "model": "openai",
       "since": "2026-09-09",
-      "equity": 100084.05,
-      "returnPct": 0.08,
+      "equity": 100298.14,
+      "returnPct": 0.3,
       "returnStartAt": "2026-09-09",
       "equityAsOf": null,
       "returnContext": {
@@ -1031,9 +1009,31 @@
       "doctrine": "adaptive",
       "model": "grok",
       "since": "2026-09-21",
-      "equity": 99997.86,
-      "returnPct": 0,
+      "equity": 100014.95,
+      "returnPct": 0.01,
       "returnStartAt": "2026-09-21",
+      "equityAsOf": null,
+      "returnContext": {
+        "status": "unavailable",
+        "annualizedPct": null,
+        "days": null,
+        "text": "Annualized: unavailable",
+        "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
+      },
+      "closedTrades": null,
+      "openPositions": null
+    },
+    {
+      "id": "lab-tactical-gemini",
+      "key": "lab-tactical-gemini",
+      "label": "Tactical · Gemini",
+      "name": "Tactical · Gemini",
+      "doctrine": "tactical",
+      "model": "gemini",
+      "since": "2026-08-07",
+      "equity": 99836.52,
+      "returnPct": -0.16,
+      "returnStartAt": "2026-08-07",
       "equityAsOf": null,
       "returnContext": {
         "status": "unavailable",
@@ -1053,8 +1053,8 @@
       "doctrine": "fivestock",
       "model": "claude",
       "since": "2026-09-10",
-      "equity": 99158.3,
-      "returnPct": -0.84,
+      "equity": 99209.77,
+      "returnPct": -0.79,
       "returnStartAt": "2026-09-10",
       "equityAsOf": null,
       "returnContext": {
@@ -1075,8 +1075,8 @@
       "doctrine": "astra",
       "model": "composite",
       "since": "2026-09-08",
-      "equity": 99005.88,
-      "returnPct": -0.99,
+      "equity": 98892.99,
+      "returnPct": -1.11,
       "returnStartAt": "2026-09-08",
       "equityAsOf": null,
       "returnContext": {
@@ -1097,8 +1097,8 @@
       "doctrine": "core",
       "model": "claude",
       "since": "2026-07-27",
-      "equity": 95737.01,
-      "returnPct": -4.26,
+      "equity": 94990.78,
+      "returnPct": -5.01,
       "returnStartAt": "2026-07-27",
       "equityAsOf": null,
       "returnContext": {
@@ -1108,8 +1108,8 @@
         "text": "Annualized: unavailable",
         "detail": "The matching start and valuation dates have not been verified. Actual return is unchanged. This is not a forecast."
       },
-      "closedTrades": 814,
-      "openPositions": 6
+      "closedTrades": 839,
+      "openPositions": 0
     }
   ]
 }

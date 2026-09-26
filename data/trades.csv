@@ -1,4 +1,117 @@
 lane,symbol,opened,closed,return_pct,exit_reason,playbook
+claude,BB,2026-09-25T18:21:01.411Z,2026-09-25T20:10:04.443Z,0.2431,retired,Claude Pullback Candidate
+claude,IT,2026-09-25T18:35:38.002Z,2026-09-25T20:10:04.443Z,-0.6410,retired,Claude Pullback Candidate
+claude,PYPL,2026-09-25T19:15:38.620Z,2026-09-25T20:10:04.443Z,-0.5511,retired,Claude Pullback Candidate
+claude,RUN,2026-09-25T19:26:04.524Z,2026-09-25T20:10:04.443Z,-0.5511,retired,Claude Pullback Candidate
+claude,BE,2026-09-25T19:40:39.307Z,2026-09-25T20:10:04.443Z,-0.8755,retired,Claude Pullback Candidate
+grok,MCHP,2026-09-25T18:35:52.325Z,2026-09-25T20:10:04.443Z,0.3061,retired,Grok Wildcard Candidate
+grok,TKO,2026-09-25T19:25:58.034Z,2026-09-25T20:10:04.443Z,0.4616,retired,Grok Wildcard Candidate
+grok,RUN,2026-09-25T19:25:58.034Z,2026-09-25T20:10:04.443Z,-0.5511,retired,Grok Wildcard Candidate
+grok,GFS,2026-09-25T19:26:40.320Z,2026-09-25T20:10:04.443Z,-0.5481,retired,Grok Wildcard Candidate
+grok,OMC,2026-09-25T19:46:15.921Z,2026-09-25T20:10:04.443Z,0.1710,retired,Grok Wildcard Candidate
+gemini,SH,2026-09-17T15:01:02.127Z,2026-09-25T20:10:04.443Z,-2.3791,retired,Gemini Signal Candidate
+gemini,DOG,2026-09-22T13:41:36.001Z,2026-09-25T20:10:04.443Z,-0.1611,retired,Gemini Signal Candidate
+gemini,BITI,2026-09-25T13:36:31.017Z,2026-09-25T20:10:04.443Z,0.3147,retired,Gemini Signal Candidate
+gemini,PSQ,2026-09-25T14:21:19.619Z,2026-09-25T20:10:04.443Z,-0.5252,retired,Gemini Signal Candidate
+gemini,AKAM,2026-09-25T16:02:27.482Z,2026-09-25T20:10:04.443Z,-3.0383,retired,Gemini Signal Candidate
+gemini,SNEX,2026-09-25T17:21:44.739Z,2026-09-25T20:10:04.443Z,0.4659,retired,Gemini Signal Candidate
+grok,P,2026-09-25T17:56:21.736Z,2026-09-25T19:56:23.728Z,-1.2415,sell-signal,Grok Wildcard Candidate
+claude,P,2026-09-25T17:55:59.038Z,2026-09-25T19:56:10.003Z,-1.2415,sell-signal,Claude Pullback Candidate
+openai,P,2026-09-25T17:55:33.627Z,2026-09-25T19:55:46.009Z,-1.5343,sell-signal,OpenAI Confluence Candidate
+system,MCHP,2026-09-25T19:25:03.561Z,2026-09-25T19:55:03.350Z,0.2601,partial-target,Breakout Engine
+system,FLNC,2026-09-25T16:50:12.265Z,2026-09-25T19:50:03.616Z,-1.8966,sell-signal,Flow Confirm
+claude,VICR,2026-09-25T17:25:50.165Z,2026-09-25T19:26:04.524Z,-1.9429,sell-signal,Claude Pullback Candidate
+system,MCHP,2026-09-25T19:10:03.272Z,2026-09-25T19:25:03.561Z,0.0974,trailing-stop,Breakout Engine
+claude,ACM,2026-09-25T17:21:01.240Z,2026-09-25T19:21:17.994Z,-0.1559,sell-signal,Claude Pullback Candidate
+openai,ACM,2026-09-25T17:20:37.993Z,2026-09-25T19:20:59.010Z,-0.3439,sell-signal,OpenAI Confluence Candidate
+system,FLEX,2026-09-25T14:45:05.909Z,2026-09-25T19:20:09.366Z,-1.4256,sell-signal,EMA Reclaim Trend
+claude,FLNC,2026-09-25T17:01:32.534Z,2026-09-25T19:11:11.256Z,-0.4428,sell-signal,Claude Pullback Candidate
+system,DELL,2026-09-25T13:50:03.850Z,2026-09-25T19:10:03.272Z,1.4530,trailing-stop,Relative Strength Leader
+openai,FLNC,2026-09-25T17:01:09.068Z,2026-09-25T19:05:22.227Z,0.0000,sell-signal,OpenAI Confluence Candidate
+system,AKAM,2026-09-25T18:15:17.091Z,2026-09-25T19:05:03.490Z,-1.3473,sell-signal,Turtle 20 Breakout
+grok,SYNA,2026-09-25T15:36:16.760Z,2026-09-25T18:56:01.857Z,1.4361,sell-signal,Grok Wildcard Candidate
+claude,VSH,2026-09-25T16:31:29.397Z,2026-09-25T18:31:55.747Z,-1.4316,sell-signal,Claude Pullback Candidate
+system,ABSI,2026-09-25T14:45:05.909Z,2026-09-25T18:15:17.091Z,-1.2103,sell-signal,RSI Recovery
+claude,SNEX,2026-09-25T16:05:53.822Z,2026-09-25T18:06:06.770Z,-0.9091,sell-signal,Claude Pullback Candidate
+openai,ON,2026-09-25T15:35:33.140Z,2026-09-25T17:35:37.864Z,1.6290,sell-signal,OpenAI Confluence Candidate
+openai,SYNA,2026-09-25T15:35:33.140Z,2026-09-25T17:35:37.864Z,1.4757,sell-signal,OpenAI Confluence Candidate
+claude,MXL,2026-09-25T14:35:54.391Z,2026-09-25T17:31:19.013Z,2.2772,sell-signal,Claude Pullback Candidate
+system,ACM,2026-09-25T16:30:27.527Z,2026-09-25T17:25:09.046Z,-1.5000,stop,Breakout Engine
+gemini,FSLR,2026-09-25T13:31:22.104Z,2026-09-25T17:21:44.739Z,1.2625,trailing-stop,Gemini Signal Candidate
+openai,JBL,2026-09-25T15:16:10.601Z,2026-09-25T17:20:37.993Z,-1.2348,sell-signal,OpenAI Confluence Candidate
+grok,JBL,2026-09-25T15:16:31.219Z,2026-09-25T17:16:36.415Z,-1.3153,sell-signal,Grok Wildcard Candidate
+claude,FSLR,2026-09-25T13:31:24.873Z,2026-09-25T17:16:13.179Z,1.7033,sell-signal,Claude Pullback Candidate
+grok,FSLR,2026-09-25T13:31:02.861Z,2026-09-25T17:11:18.905Z,1.7061,sell-signal,Grok Wildcard Candidate
+claude,TEM,2026-09-25T13:31:24.873Z,2026-09-25T17:10:56.045Z,1.1918,trailing-stop,Claude Pullback Candidate
+grok,FLNC,2026-09-25T14:51:23.011Z,2026-09-25T17:06:14.640Z,1.6088,trailing-stop,Grok Wildcard Candidate
+claude,LPLA,2026-09-25T14:21:03.166Z,2026-09-25T17:01:32.534Z,-1.5753,sell-signal,Claude Pullback Candidate
+system,FSLR,2026-09-25T15:50:13.617Z,2026-09-25T17:00:42.403Z,-0.0352,sell-signal,Flow Confirm
+system,PYPL,2026-09-25T14:40:06.669Z,2026-09-25T16:55:07.486Z,0.6534,trailing-stop,Breakout Engine
+system,ETSY,2026-09-24T15:30:09.486Z,2026-09-25T16:50:12.265Z,1.1256,trailing-stop,Flow Confirm
+openai,LPLA,2026-09-25T14:45:31.587Z,2026-09-25T16:45:42.700Z,-0.2280,sell-signal,OpenAI Confluence Candidate
+grok,TSEM,2026-09-25T13:31:02.861Z,2026-09-25T16:41:16.024Z,4.7047,sell-signal,Grok Wildcard Candidate
+openai,FLNC,2026-09-25T14:51:00.248Z,2026-09-25T16:40:35.083Z,2.0592,trailing-stop,OpenAI Confluence Candidate
+system,CRDO,2026-09-25T14:55:04.294Z,2026-09-25T16:30:27.527Z,3.4000,target,EMA Reclaim Trend
+system,BE,2026-09-25T14:15:05.814Z,2026-09-25T16:05:09.481Z,4.0000,target,Relative Strength Leader
+gemini,RWM,2026-09-17T14:57:52.273Z,2026-09-25T16:02:27.482Z,1.0114,trailing-stop,Gemini Signal Candidate
+system,AKAM,2026-09-25T14:00:07.203Z,2026-09-25T15:50:13.617Z,-2.8574,stop,Relative Strength Leader
+system,GFS,2026-09-25T15:20:37.992Z,2026-09-25T15:50:13.617Z,-0.3161,sell-signal,Flow Confirm
+claude,P,2026-09-25T13:40:45.310Z,2026-09-25T15:46:17.949Z,-0.7579,sell-signal,Claude Pullback Candidate
+claude,ANET,2026-09-25T13:35:47.697Z,2026-09-25T15:41:00.163Z,-1.9270,sell-signal,Claude Pullback Candidate
+system,SYNA,2026-09-25T13:45:03.667Z,2026-09-25T15:40:12.839Z,1.0378,trailing-stop,Flow Confirm
+system,HUM,2026-09-25T15:05:07.405Z,2026-09-25T15:20:37.992Z,0.9556,trailing-stop,Flow Confirm
+system,TWLO,2026-09-25T14:45:05.909Z,2026-09-25T15:20:08.626Z,0.9103,trailing-stop,Mean Reversion
+system,FLNC,2026-09-25T14:15:05.814Z,2026-09-25T15:05:07.405Z,-1.3076,sell-signal,Turtle 20 Breakout
+system,CRDO,2026-09-25T13:55:03.709Z,2026-09-25T14:55:04.294Z,1.1161,trailing-stop,EMA Reclaim Trend
+system,JBL,2026-09-25T14:20:04.927Z,2026-09-25T14:50:06.681Z,0.4371,sell-signal,Flow Confirm
+grok,FLNC,2026-09-25T13:31:02.861Z,2026-09-25T14:46:20.942Z,2.0361,trailing-stop,Grok Wildcard Candidate
+system,ZS,2026-09-25T13:40:04.660Z,2026-09-25T14:45:05.909Z,-3.5000,stop,Mean Reversion
+system,ARM,2026-09-25T13:45:41.635Z,2026-09-25T14:45:05.909Z,-1.4539,stop,Breakout Engine
+system,HNGE,2026-09-25T13:50:03.850Z,2026-09-25T14:45:05.909Z,-2.0880,sell-signal,Turtle 20 Breakout
+system,SNDK,2026-09-25T13:35:28.664Z,2026-09-25T14:20:04.927Z,-2.8903,sell-signal,Flow Confirm
+system,SNX,2026-09-25T13:40:30.037Z,2026-09-25T14:20:04.927Z,-1.5000,stop,Breakout Engine
+claude,JBL,2026-09-25T13:31:24.873Z,2026-09-25T14:15:47.347Z,1.7168,trailing-stop,Claude Pullback Candidate
+claude,FLEX,2026-09-25T13:31:24.873Z,2026-09-25T14:15:47.347Z,2.2878,trailing-stop,Claude Pullback Candidate
+system,FLEX,2026-09-25T14:00:07.203Z,2026-09-25T14:15:05.814Z,-2.5000,stop,Turtle 20 Breakout
+system,BE,2026-09-25T14:05:05.181Z,2026-09-25T14:15:05.814Z,-1.5000,stop,Breakout Engine
+system,JBL,2026-09-25T13:40:04.660Z,2026-09-25T14:05:05.181Z,0.9323,trailing-stop,Breakout Engine
+system,P,2026-09-25T13:40:30.037Z,2026-09-25T14:00:07.203Z,-0.8813,sell-signal,EMA Pullback Swing
+system,AKAM,2026-09-25T13:45:03.667Z,2026-09-25T14:00:07.203Z,-2.7932,stop,Relative Strength Leader
+gemini,PSQ,2026-09-22T14:46:54.741Z,2026-09-25T13:56:03.155Z,-1.1197,stop,Gemini Signal Candidate
+system,CRDO,2026-09-25T13:35:28.664Z,2026-09-25T13:55:03.709Z,-2.5000,stop,Turtle 20 Breakout
+system,GDDY,2026-09-24T17:56:05.728Z,2026-09-25T13:50:03.850Z,-3.2322,sell-signal,Trend Pulse
+system,ABSI,2026-09-24T19:01:04.622Z,2026-09-25T13:50:03.850Z,-1.5504,sell-signal,Turtle 20 Breakout
+system,ARM,2026-09-25T13:45:03.667Z,2026-09-25T13:45:41.635Z,-1.4539,stop,Breakout Engine
+system,AR,2026-09-23T15:45:56.136Z,2026-09-25T13:45:03.667Z,-2.6295,stop,Trend Pulse
+system,VLO,2026-09-24T17:55:02.838Z,2026-09-25T13:45:03.667Z,-5.0000,stop,Trend Pulse
+system,LQDA,2026-09-24T19:55:02.291Z,2026-09-25T13:45:03.667Z,-1.7736,sell-signal,Turtle 20 Breakout
+system,ARM,2026-09-25T13:35:04.752Z,2026-09-25T13:45:03.667Z,-1.5000,stop,Breakout Engine
+claude,DDOG,2026-09-25T13:31:24.873Z,2026-09-25T13:40:45.310Z,1.8592,trailing-stop,Claude Pullback Candidate
+system,SNX,2026-09-25T13:40:04.660Z,2026-09-25T13:40:30.037Z,-1.5000,stop,Breakout Engine
+system,PANW,2026-09-25T13:40:04.660Z,2026-09-25T13:40:30.037Z,-0.0337,stop,Mean Reversion
+system,BEAM,2026-09-24T14:25:04.860Z,2026-09-25T13:40:04.660Z,1.5955,trailing-stop,RSI Recovery
+system,IONQ,2026-09-24T18:15:02.957Z,2026-09-25T13:40:04.660Z,-2.4000,stop,Relative Strength Leader
+system,AKAM,2026-09-25T13:35:28.664Z,2026-09-25T13:40:04.660Z,-1.5000,stop,Breakout Engine
+system,MAZE,2026-09-25T13:35:28.664Z,2026-09-25T13:40:04.660Z,-1.5000,stop,Breakout Engine
+gemini,MAZE,2026-09-25T13:31:22.104Z,2026-09-25T13:36:31.017Z,-2.3316,trailing-stop,Gemini Signal Candidate
+grok,TWST,2026-09-24T18:05:05.007Z,2026-09-25T13:36:06.498Z,3.4635,sell-signal,Grok Wildcard Candidate
+claude,MAZE,2026-09-25T13:31:24.873Z,2026-09-25T13:35:47.697Z,-4.5000,stop,Claude Pullback Candidate
+system,ORCL,2026-09-24T14:40:07.837Z,2026-09-25T13:35:28.664Z,0.6537,trailing-stop,RSI Recovery
+system,TEM,2026-09-24T19:36:16.135Z,2026-09-25T13:35:28.664Z,1.2969,trailing-stop,Donchian Swing
+system,MAZE,2026-09-24T19:55:02.291Z,2026-09-25T13:35:28.664Z,-0.2282,trailing-stop,Flow Confirm
+system,AKAM,2026-09-25T13:35:04.752Z,2026-09-25T13:35:28.664Z,-1.5000,stop,Breakout Engine
+system,KGC,2026-09-24T15:21:34.842Z,2026-09-25T13:35:04.752Z,0.9189,sell-signal,Mean Reversion
+system,CRL,2026-09-24T19:15:21.225Z,2026-09-25T13:35:04.752Z,-2.1513,sell-signal,Flow Confirm
+grok,TKO,2026-09-24T18:27:31.906Z,2026-09-25T13:32:22.879Z,0.4809,sell-signal,Grok Wildcard Candidate
+grok,GDDY,2026-09-24T19:15:12.025Z,2026-09-25T13:32:22.879Z,-4.1162,sell-signal,Grok Wildcard Candidate
+claude,IONQ,2026-09-24T18:11:44.967Z,2026-09-25T13:31:24.873Z,-1.8030,sell-signal,Claude Pullback Candidate
+claude,BLLN,2026-09-24T18:41:51.368Z,2026-09-25T13:31:24.873Z,-1.0371,sell-signal,Claude Pullback Candidate
+claude,TEM,2026-09-24T18:47:18.419Z,2026-09-25T13:31:24.873Z,3.5124,time,Claude Pullback Candidate
+claude,RVTY,2026-09-24T19:03:59.962Z,2026-09-25T13:31:24.873Z,0.8394,time,Claude Pullback Candidate
+claude,ICLR,2026-09-24T19:12:36.671Z,2026-09-25T13:31:24.873Z,1.0436,time,Claude Pullback Candidate
+claude,TWST,2026-09-24T19:41:58.527Z,2026-09-25T13:31:24.873Z,0.4679,time,Claude Pullback Candidate
+gemini,FSLR,2026-09-24T16:20:28.495Z,2026-09-25T13:31:22.104Z,-1.8339,time,Gemini Signal Candidate
+gemini,GEN,2026-09-24T16:44:12.455Z,2026-09-25T13:31:22.104Z,-7.4590,time,Gemini Signal Candidate
 grok,AUR,2026-09-24T17:08:43.753Z,2026-09-24T19:57:35.030Z,0.9414,trailing-stop,Grok Wildcard Candidate
 system,NBIS,2026-09-24T15:35:13.929Z,2026-09-24T19:55:02.291Z,1.6551,trailing-stop,EMA Pullback Swing
 system,RKLB,2026-09-24T17:46:37.458Z,2026-09-24T19:55:02.291Z,-1.7139,sell-signal,Flow Confirm
@@ -12,7 +125,6 @@ claude,PL,2026-09-24T16:42:35.727Z,2026-09-24T19:03:59.962Z,-0.9700,sell-signal,
 claude,AXTI,2026-09-24T16:57:16.746Z,2026-09-24T19:03:59.962Z,0.0129,sell-signal,Claude Pullback Candidate
 system,QURE,2026-09-24T18:05:03.160Z,2026-09-24T19:01:04.622Z,1.4323,trailing-stop,RSI Recovery
 claude,CRL,2026-09-24T16:18:28.933Z,2026-09-24T18:48:16.209Z,0.3114,sell-signal,Claude Pullback Candidate
-system,BEAM,2026-09-24T14:25:04.860Z,2026-09-24T18:40:02.778Z,2.7000,partial-target,RSI Recovery
 claude,KSS,2026-09-24T16:19:58.983Z,2026-09-24T18:37:14.040Z,-0.6534,sell-signal,Claude Pullback Candidate
 system,PCOR,2026-09-24T16:46:04.410Z,2026-09-24T18:15:02.957Z,-1.9963,stop,Mean Reversion
 grok,AXTI,2026-09-24T13:47:54.943Z,2026-09-24T18:05:05.007Z,1.0783,trailing-stop,Grok Wildcard Candidate
@@ -1375,7 +1487,7 @@ claude,WFC,2026-09-03T14:30:11.455Z,2026-09-03T16:45:13.425Z,0.3877,sell-signal,
 openai,CRM,2026-09-03T14:40:16.278Z,2026-09-03T16:45:09.187Z,0.3117,sell-signal,OpenAI Confluence Candidate
 openai,NOW,2026-09-03T14:40:07.538Z,2026-09-03T16:40:08.515Z,0.1384,time,OpenAI Confluence Candidate
 grok,BAC,2026-09-03T14:30:39.617Z,2026-09-03T16:35:16.767Z,1.0373,sell-signal,Grok Wildcard Candidate
-claude,BAC,2026-09-03T14:30:36.175Z,2026-09-03T16:35:16.556Z,1.0330,sell-signal,Claude Pullback Candidate
+claude,BAC,2026-09-03T14:30:36.175Z,2026-09-03T16:35:13.243Z,1.0373,sell-signal,Claude Pullback Candidate
 openai,NVDA,2026-09-03T14:30:32.417Z,2026-09-03T16:35:12.728Z,0.0000,sell-signal,OpenAI Confluence Candidate
 openai,ADBE,2026-09-03T14:30:32.417Z,2026-09-03T16:35:12.728Z,-1.0005,sell-signal,OpenAI Confluence Candidate
 gemini,WFC,2026-09-03T14:30:18.498Z,2026-09-03T16:30:38.095Z,0.2473,sell-signal,Gemini Signal Candidate
@@ -1408,7 +1520,7 @@ system,NKE,2026-09-03T13:35:06.466Z,2026-09-03T13:40:02.868Z,-0.4159,sell-signal
 grok,INTC,2026-09-02T17:55:25.983Z,2026-09-03T13:35:21.356Z,-1.0997,stop,Grok Wildcard Candidate
 grok,KO,2026-09-02T19:15:16.824Z,2026-09-03T13:35:21.356Z,0.0339,sell-signal,Grok Wildcard Candidate
 grok,DIS,2026-09-02T19:55:17.163Z,2026-09-03T13:35:21.356Z,0.6099,sell-signal,Grok Wildcard Candidate
-claude,WFC,2026-09-02T19:55:13.172Z,2026-09-03T13:35:18.152Z,0.7002,sell-signal,Claude Pullback Candidate
+claude,WFC,2026-09-02T19:55:13.172Z,2026-09-03T13:35:14.861Z,0.6890,sell-signal,Claude Pullback Candidate
 system,UNH,2026-09-01T15:20:18.289Z,2026-09-03T13:35:03.033Z,0.0341,stop,EMA Reclaim Trend
 system,MU,2026-09-02T15:05:09.517Z,2026-09-03T13:35:03.033Z,-1.3938,trailing-stop,EMA Pullback Swing
 system,QCOM,2026-09-02T15:35:07.854Z,2026-09-03T13:35:03.033Z,-1.1118,stop,Trend Pulse
