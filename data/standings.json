@@ -1,6 +1,6 @@
 {
   "note": "First-party paper-trading roster for aitradingcompetition.com's Bot Analysis Arena. Simulated money on real market prices. Not financial advice. Trade-level ledgers (closedTrades/openPositions) are published only for the five accounts arena-trades covers; every other bot's return/equity is still first-party, from public-arena.",
-  "generatedAt": "2026-09-27T09:40:21.162Z",
+  "generatedAt": "2026-09-28T09:40:21.002Z",
   "standingsUpdatedAt": "2026-09-25T20:00:00.000Z",
   "arenaUpdatedAt": "2026-09-25T20:00:00.000Z",
   "seasonStart": "2026-07-27",
