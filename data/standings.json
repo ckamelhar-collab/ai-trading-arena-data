@@ -1,6 +1,6 @@
 {
   "note": "First-party paper-trading roster for aitradingcompetition.com's Bot Analysis Arena. Simulated money on real market prices. Not financial advice. Trade-level ledgers (closedTrades/openPositions) are published only for System, the fixed-rulebook control (see trades.csv); every other bot's return/equity is still first-party, from public-arena.",
-  "generatedAt": "2026-10-03T09:40:25.396Z",
+  "generatedAt": "2026-10-04T09:40:24.084Z",
   "standingsUpdatedAt": "2026-10-02T20:00:00.000Z",
   "arenaUpdatedAt": "2026-10-02T20:00:00.000Z",
   "seasonStart": "2026-07-27",
@@ -315,7 +315,7 @@
       "since": "2026-08-31",
       "equity": 104929.53,
       "returnPct": 4.93,
-      "avgInvestedPct": 51,
+      "avgInvestedPct": 52,
       "tradeStats": {
         "closedTrades": 182,
         "wins": 112,
@@ -563,7 +563,7 @@
       "since": "2026-09-02",
       "equity": 101696.39,
       "returnPct": 1.7,
-      "avgInvestedPct": 62,
+      "avgInvestedPct": 63,
       "tradeStats": {
         "closedTrades": 280,
         "wins": 162,
@@ -671,7 +671,7 @@
       "since": "2026-09-09",
       "equity": 100175.55,
       "returnPct": 0.18,
-      "avgInvestedPct": 40,
+      "avgInvestedPct": 41,
       "tradeStats": {
         "closedTrades": 139,
         "wins": 78,
@@ -781,7 +781,7 @@
       "since": "2026-09-21",
       "equity": 97044.53,
       "returnPct": -2.96,
-      "avgInvestedPct": 48,
+      "avgInvestedPct": 51,
       "tradeStats": {
         "closedTrades": 113,
         "wins": 45,
@@ -1147,7 +1147,7 @@
       "since": "2026-08-31",
       "equity": 104929.53,
       "returnPct": 4.93,
-      "avgInvestedPct": 51,
+      "avgInvestedPct": 52,
       "tradeStats": {
         "closedTrades": 182,
         "wins": 112,
@@ -1395,7 +1395,7 @@
       "since": "2026-09-02",
       "equity": 101696.39,
       "returnPct": 1.7,
-      "avgInvestedPct": 62,
+      "avgInvestedPct": 63,
       "tradeStats": {
         "closedTrades": 280,
         "wins": 162,
@@ -1503,7 +1503,7 @@
       "since": "2026-09-09",
       "equity": 100175.55,
       "returnPct": 0.18,
-      "avgInvestedPct": 40,
+      "avgInvestedPct": 41,
       "tradeStats": {
         "closedTrades": 139,
         "wins": 78,
@@ -1613,7 +1613,7 @@
       "since": "2026-09-21",
       "equity": 97044.53,
       "returnPct": -2.96,
-      "avgInvestedPct": 48,
+      "avgInvestedPct": 51,
       "tradeStats": {
         "closedTrades": 113,
         "wins": 45,
