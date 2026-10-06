@@ -1,4 +1,53 @@
 lane,symbol,opened,closed,return_pct,exit_reason,playbook
+system,BSY,2026-10-05T16:35:12.598Z,2026-10-05T19:55:11.139Z,-0.8207,sell-signal,EMA Reclaim Trend
+system,BBWI,2026-10-05T19:20:12.602Z,2026-10-05T19:50:11.137Z,-0.1432,sell-signal,Flow Confirm
+system,CLF,2026-10-05T17:00:16.012Z,2026-10-05T19:40:11.973Z,0.7730,trailing-stop,Flow Confirm
+system,ITUB,2026-10-05T16:55:12.268Z,2026-10-05T19:35:11.556Z,-0.2008,sell-signal,Flow Confirm
+system,ILMN,2026-10-05T18:15:13.175Z,2026-10-05T19:20:12.602Z,0.6611,sell-signal,Flow Confirm
+system,WDC,2026-10-05T18:35:12.010Z,2026-10-05T19:05:11.093Z,-0.1952,sell-signal,Connors RSI(2)
+system,AFRM,2026-10-05T17:20:14.298Z,2026-10-05T18:55:09.677Z,0.1407,sell-signal,Breakout Engine
+system,TWST,2026-10-05T16:45:15.322Z,2026-10-05T18:35:12.010Z,2.0400,partial-target,EMA Reclaim Trend
+system,CHRW,2026-10-05T16:45:15.322Z,2026-10-05T18:35:12.010Z,1.3101,trailing-stop,Turtle 20 Breakout
+system,DAVE,2026-10-05T15:40:12.773Z,2026-10-05T18:15:13.175Z,1.8692,sell-signal,Flow Confirm
+system,MELI,2026-10-05T14:30:11.208Z,2026-10-05T17:25:11.616Z,2.4000,partial-target,Relative Strength Leader
+system,WOLF,2026-10-05T16:45:15.322Z,2026-10-05T17:20:14.298Z,-1.3202,sell-signal,Turtle 20 Breakout
+system,PBR,2026-10-05T13:45:12.650Z,2026-10-05T17:00:16.012Z,1.4697,trailing-stop,Flow Confirm
+system,INSM,2026-10-05T15:30:17.778Z,2026-10-05T16:55:12.268Z,0.2840,sell-signal,Flow Confirm
+system,WOLF,2026-10-05T13:40:11.861Z,2026-10-05T16:45:15.322Z,6.0462,sell-signal,Mean Reversion
+system,PCVX,2026-10-05T14:55:30.255Z,2026-10-05T16:45:15.322Z,-4.8613,stop,Relative Strength Leader
+system,RIG,2026-10-05T15:10:12.378Z,2026-10-05T16:45:15.322Z,-0.3245,sell-signal,Turtle 20 Breakout
+system,CRL,2026-10-05T15:45:14.350Z,2026-10-05T16:35:12.598Z,0.2902,trailing-stop,Breakout Engine
+system,U,2026-10-05T15:30:17.778Z,2026-10-05T16:20:12.781Z,-0.5960,sell-signal,Turtle 20 Breakout
+system,BBD,2026-10-05T14:50:16.803Z,2026-10-05T15:45:14.350Z,-0.7360,sell-signal,Turtle 20 Breakout
+system,NU,2026-10-05T13:45:12.650Z,2026-10-05T15:40:12.773Z,0.0000,sell-signal,Flow Confirm
+system,KRMN,2026-10-02T17:35:04.995Z,2026-10-05T15:30:17.778Z,-2.5379,sell-signal,Trend Pulse
+system,SPCX,2026-10-02T19:20:05.343Z,2026-10-05T15:30:17.778Z,4.6011,sell-signal,Flow Confirm
+system,WDC,2026-10-05T13:40:11.861Z,2026-10-05T15:25:12.546Z,0.9640,trailing-stop,Relative Strength Leader
+system,PTC,2026-10-05T13:40:11.861Z,2026-10-05T15:10:12.378Z,-0.6651,sell-signal,Breakout Engine
+system,PCVX,2026-10-05T14:50:16.803Z,2026-10-05T14:55:30.255Z,0.9895,trailing-stop,Relative Strength Leader
+system,ILMN,2026-10-05T13:45:12.650Z,2026-10-05T14:50:16.803Z,0.6010,trailing-stop,Breakout Engine
+system,PCVX,2026-10-05T14:45:10.441Z,2026-10-05T14:50:16.803Z,1.1071,trailing-stop,Relative Strength Leader
+system,PCVX,2026-10-05T14:05:32.605Z,2026-10-05T14:45:10.441Z,-5.9997,stop,Relative Strength Leader
+system,LLY,2026-10-05T13:35:09.932Z,2026-10-05T14:30:11.208Z,-1.5000,stop,Breakout Engine
+system,PCVX,2026-10-05T14:05:10.791Z,2026-10-05T14:05:32.605Z,4.0000,target,Relative Strength Leader
+system,ECHO,2026-10-02T19:00:07.551Z,2026-10-05T14:05:10.791Z,4.0200,partial-target,Trend Pulse
+system,CHRW,2026-10-05T13:50:46.189Z,2026-10-05T14:05:10.791Z,-2.1565,stop,Mean Reversion
+system,CHRW,2026-10-05T13:35:30.923Z,2026-10-05T13:50:46.189Z,0.9621,trailing-stop,Mean Reversion
+system,JBS,2026-10-02T19:35:05.914Z,2026-10-05T13:45:12.650Z,1.6709,trailing-stop,Flow Confirm
+system,ILMN,2026-10-05T13:35:09.932Z,2026-10-05T13:45:12.650Z,1.4788,target,Breakout Engine
+system,MTRN,2026-10-05T13:35:09.932Z,2026-10-05T13:45:12.650Z,-2.2000,stop,EMA Reclaim Trend
+system,HUT,2026-10-02T14:40:42.681Z,2026-10-05T13:40:11.861Z,-7.0000,stop,EMA Pullback Swing
+system,WOLF,2026-10-05T13:35:09.932Z,2026-10-05T13:40:11.861Z,2.3653,trailing-stop,Mean Reversion
+system,LQDA,2026-10-05T13:35:09.932Z,2026-10-05T13:40:11.861Z,2.3521,trailing-stop,Flow Confirm
+system,WDC,2026-10-05T13:35:30.923Z,2026-10-05T13:40:11.861Z,-1.5000,stop,Breakout Engine
+system,WDC,2026-10-05T13:35:09.932Z,2026-10-05T13:35:30.923Z,-1.5000,stop,Breakout Engine
+system,LLY,2026-09-24T14:20:07.222Z,2026-10-05T13:35:09.932Z,-2.8205,time,Donchian Swing
+system,ILMN,2026-09-24T19:25:02.055Z,2026-10-05T13:35:09.932Z,-0.9806,time,Donchian Swing
+system,FPS,2026-10-02T16:40:05.834Z,2026-10-05T13:35:09.932Z,-0.5250,sell-signal,Championship VCP Breakout
+system,MTRN,2026-10-02T17:10:04.799Z,2026-10-05T13:35:09.932Z,1.8021,trailing-stop,Flow Confirm
+system,TER,2026-10-02T19:15:05.591Z,2026-10-05T13:35:09.932Z,-1.3137,sell-signal,EMA Reclaim Trend
+system,STRL,2026-10-02T19:25:05.867Z,2026-10-05T13:35:09.932Z,-2.2000,stop,EMA Reclaim Trend
+system,WDC,2026-10-02T19:55:03.791Z,2026-10-05T13:35:09.932Z,3.4000,target,EMA Reclaim Trend
 system,SMTC,2026-10-02T16:30:05.890Z,2026-10-02T19:55:03.791Z,-1.9679,sell-signal,EMA Reclaim Trend
 system,DOCS,2026-10-02T13:45:03.954Z,2026-10-02T19:40:07.086Z,-2.6650,sell-signal,Trend Pulse
 system,WDC,2026-10-02T18:50:05.429Z,2026-10-02T19:35:05.914Z,-0.2513,sell-signal,Flow Confirm
