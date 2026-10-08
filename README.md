@@ -31,7 +31,7 @@ The full per-bot record: https://aitradingcompetition.com/record/ · Dataset lan
 
 | file | contents | refresh |
 |---|---|---|
-| `data/trades.csv` | one row per **closed position** of the control account (`system`, the frozen rulebook). The AI lanes' per-trade ledgers were removed from this file on 2026-09-29 and are not published here today; their since-start results are in `standings.json` | daily |
+| `data/trades.csv` | one row per **exit** of the control account (`system`, the frozen rulebook). A position that is sold in two parts has two rows (same `symbol` and `opened`; the first has `exit_reason` = `partial-target`) — corrected 2026-10-07: until then the file kept only the last exit of each position and silently dropped the 434 partial-target rows. The AI lanes' per-trade ledgers were removed from this file on 2026-09-29 and are not published here today; their since-start results are in `standings.json` | daily |
 | `data/standings.json` | since-start standing of every bot in the Arena (the count is shown at the top of this file), the S&P 500 benchmark, and the `standingsUpdatedAt` stamp | daily |
 
 ### `data/trades.csv` columns
@@ -41,9 +41,9 @@ The full per-bot record: https://aitradingcompetition.com/record/ · Dataset lan
 | `lane` | which account closed the position: today only `system` (the frozen-rulebook control); older versions of this file also carried `openai`, `claude`, `grok`, `gemini` |
 | `symbol` | US-listed ticker |
 | `opened` | ISO-8601 UTC timestamp of the entry fill |
-| `closed` | ISO-8601 UTC timestamp of the final exit fill |
-| `return_pct` | realised return of the position in percent, **before** any trading cost (price move only) |
-| `exit_reason` | why it closed: `sell-signal`, `stop`, `target`, `time-stop`, `rewrite`, or a governor halt |
+| `closed` | ISO-8601 UTC timestamp of this exit fill (the final exit, or the first part for a `partial-target` row) |
+| `return_pct` | realised return of the shares sold in this exit, in percent, **before** any trading cost (price move only). A two-part position's total is the size-weighted combination of its rows (the first part is half the shares) |
+| `exit_reason` | why this exit happened: `partial-target` (half the position sold at the first profit target), `sell-signal`, `stop`, `trailing-stop`, `target`, `time-stop`, `rewrite`, or a governor halt |
 | `playbook` | name of the rulebook slot that opened the position |
 
 One row per position: a position that exits in two fills is collapsed on `lane|symbol|opened`, keeping the latest close. (The site's own CSV may still show both fills until its producer is fixed; the count on the site's dataset page and the count here agree.)
