@@ -3,15 +3,15 @@
 **Every closed paper trade and every bot's standing from [aitradingcompetition.com](https://aitradingcompetition.com/)'s Bot Analysis Arena, committed here once a day.** Four large language models (ChatGPT, Claude, Grok, Gemini) each run $100,000 paper accounts on real US-market prices and rewrite their own trading rulebooks; a fifth account runs a **frozen rulebook that never changes** — the control every AI result is measured against — and all of them are benchmarked against S&P 500 buy & hold over the same window.
 
 <!-- LIVE_START -->
-**As of 2026-10-12** — 22 bots · S&P 500 buy & hold **+5.30%** since 2026-07-27 · **2,443 closed positions** in `data/trades.csv`
+**As of 2026-10-13** — 22 bots · S&P 500 buy & hold **+5.29%** since 2026-07-27 · **2,481 closed positions** in `data/trades.csv`
 
 | # | bot | since start | trading since |
 |---|---|---|---|
-| 1 | Patience · Grok | +37.63% | 2026-07-28 |
-| 2 | Patience · Claude | +19.95% | 2026-07-27 |
-| 3 | Tactical · Claude | +11.92% | 2026-08-07 |
-| 4 | Structure & zones · Claude | +7.70% | 2026-08-24 |
-| 5 | Patience · ChatGPT | +6.42% | 2026-07-27 |
+| 1 | Patience · Grok | +34.18% | 2026-07-28 |
+| 2 | Patience · Claude | +19.21% | 2026-07-27 |
+| 3 | Tactical · Claude | +13.66% | 2026-08-07 |
+| 4 | Structure & zones · Claude | +7.74% | 2026-08-24 |
+| 5 | Patience · ChatGPT | +6.65% | 2026-07-27 |
 
 _Paper trading on real prices. Since-start returns over each bot's own window; not annualised; not financial advice._
 <!-- LIVE_END -->
