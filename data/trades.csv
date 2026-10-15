@@ -1,4 +1,45 @@
 lane,symbol,opened,closed,return_pct,exit_reason,playbook
+system,RVMD,2026-10-14T17:40:06.384Z,2026-10-14T19:40:02.899Z,0.0646,sell-signal,Flow Confirm
+system,AMZN,2026-10-14T19:05:11.141Z,2026-10-14T19:25:03.021Z,0.2469,target,Mean Reversion
+system,AMZN,2026-10-14T19:05:11.141Z,2026-10-14T19:20:10.769Z,0.1481,partial-target,Mean Reversion
+system,RIG,2026-10-14T13:35:53.722Z,2026-10-14T19:05:11.141Z,-2.2000,stop,EMA Reclaim Trend
+system,NVDA,2026-10-14T14:20:06.394Z,2026-10-14T19:05:11.141Z,-1.9376,stop,Mean Reversion
+system,ICLR,2026-10-14T16:15:07.540Z,2026-10-14T18:55:11.128Z,0.0769,sell-signal,Flow Confirm
+system,CTSH,2026-10-14T16:00:07.495Z,2026-10-14T18:25:10.862Z,-0.4389,sell-signal,EMA Reclaim Trend
+system,RVMD,2026-10-14T15:15:04.048Z,2026-10-14T17:40:06.384Z,-0.4373,sell-signal,EMA Pullback Swing
+system,BLLN,2026-10-14T15:50:12.861Z,2026-10-14T17:40:06.384Z,-1.7879,sell-signal,Flow Confirm
+system,AMD,2026-10-14T16:30:08.306Z,2026-10-14T17:30:07.971Z,0.5113,trailing-stop,Mean Reversion
+system,CRWV,2026-10-14T16:00:07.495Z,2026-10-14T17:10:13.240Z,0.5913,trailing-stop,Mean Reversion
+system,CRWV,2026-10-14T16:00:07.495Z,2026-10-14T17:00:07.538Z,1.0481,partial-target,Mean Reversion
+system,AMD,2026-10-14T16:30:08.306Z,2026-10-14T17:00:07.538Z,0.9674,partial-target,Mean Reversion
+system,HALO,2026-10-14T13:45:05.606Z,2026-10-14T16:30:08.306Z,1.9011,sell-signal,Breakout Engine
+system,AAPL,2026-10-14T13:35:03.983Z,2026-10-14T16:15:07.540Z,-0.4803,sell-signal,Flow Confirm
+system,ABVX,2026-10-14T14:10:04.540Z,2026-10-14T16:00:07.495Z,-1.6876,sell-signal,Turtle 20 Breakout
+system,CAI,2026-10-14T14:20:35.327Z,2026-10-14T16:00:07.495Z,-2.4000,stop,Relative Strength Leader
+system,GFS,2026-10-14T14:25:04.715Z,2026-10-14T16:00:07.495Z,-2.4000,stop,Relative Strength Leader
+system,RPRX,2026-10-14T14:40:04.700Z,2026-10-14T15:50:12.861Z,0.4565,sell-signal,Flow Confirm
+system,SMTC,2026-10-13T13:51:20.099Z,2026-10-14T15:15:04.048Z,-7.0000,stop,EMA Pullback Swing
+system,BLLN,2026-10-14T14:30:06.395Z,2026-10-14T15:01:04.466Z,-0.5076,sell-signal,Flow Confirm
+system,HALO,2026-10-14T13:45:05.606Z,2026-10-14T14:45:05.486Z,1.7235,partial-target,Breakout Engine
+system,MU,2026-10-13T19:55:03.968Z,2026-10-14T14:40:04.700Z,-0.9412,sell-signal,Flow Confirm
+system,LQDA,2026-10-14T14:20:06.394Z,2026-10-14T14:35:05.998Z,0.3947,trailing-stop,Relative Strength Leader
+system,ADM,2026-10-13T19:55:03.968Z,2026-10-14T14:30:06.395Z,0.0241,sell-signal,Flow Confirm
+system,GFS,2026-10-14T13:40:03.960Z,2026-10-14T14:25:04.715Z,-1.5000,stop,Breakout Engine
+system,LQDA,2026-10-14T14:20:06.394Z,2026-10-14T14:20:35.327Z,2.4000,partial-target,Relative Strength Leader
+system,CDW,2026-10-13T16:00:03.584Z,2026-10-14T14:20:06.394Z,1.5849,sell-signal,Turtle 20 Breakout
+system,GOOGL,2026-10-13T19:15:04.431Z,2026-10-14T14:20:06.394Z,-0.5240,sell-signal,Turtle 20 Breakout
+system,INFY,2026-10-14T13:35:03.983Z,2026-10-14T14:10:04.540Z,-0.9944,sell-signal,Breakout Engine
+system,INTU,2026-10-14T13:35:03.983Z,2026-10-14T14:01:08.263Z,0.9561,trailing-stop,RSI Recovery
+system,LQDA,2026-10-14T13:35:03.983Z,2026-10-14T13:45:05.606Z,-1.5000,stop,Breakout Engine
+system,CNQ,2026-10-14T13:35:53.722Z,2026-10-14T13:40:03.960Z,-0.4700,sell-signal,Breakout Engine
+system,PINS,2026-10-13T15:50:02.938Z,2026-10-14T13:35:53.722Z,0.3854,sell-signal,EMA Reclaim Trend
+system,CNQ,2026-10-14T13:35:03.983Z,2026-10-14T13:35:53.722Z,0.4220,target,Breakout Engine
+system,VEEV,2026-10-13T14:00:06.298Z,2026-10-14T13:35:03.983Z,-2.4000,stop,Relative Strength Leader
+system,CHTR,2026-10-13T18:01:03.587Z,2026-10-14T13:35:03.983Z,-2.5000,stop,Turtle 20 Breakout
+system,INFY,2026-10-13T19:10:03.853Z,2026-10-14T13:35:03.983Z,0.0000,sell-signal,Flow Confirm
+system,TTMI,2026-10-13T19:45:04.620Z,2026-10-14T13:35:03.983Z,-1.9326,stop,Breakout Engine
+system,TEX,2026-10-13T19:50:03.665Z,2026-10-14T13:35:03.983Z,-1.0825,sell-signal,Breakout Engine
+system,CNQ,2026-10-13T19:55:03.968Z,2026-10-14T13:35:03.983Z,0.4320,target,Breakout Engine
 system,AS,2026-10-13T14:35:03.515Z,2026-10-13T19:55:03.968Z,0.1372,sell-signal,EMA Reclaim Trend
 system,NVDA,2026-10-13T14:45:04.025Z,2026-10-13T19:55:03.968Z,0.8786,sell-signal,Flow Confirm
 system,DAR,2026-10-13T15:55:03.056Z,2026-10-13T19:55:03.968Z,-0.1822,sell-signal,Flow Confirm
