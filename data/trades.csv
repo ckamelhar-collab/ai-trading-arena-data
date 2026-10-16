@@ -1,4 +1,35 @@
 lane,symbol,opened,closed,return_pct,exit_reason,playbook
+system,INTU,2026-10-15T13:30:49.422Z,2026-10-15T19:40:13.372Z,2.9964,sell-signal,Turtle 20 Breakout
+system,BBWI,2026-10-14T18:25:10.862Z,2026-10-15T19:35:05.615Z,9.2850,sell-signal,Turtle 20 Breakout
+system,KRMN,2026-10-15T15:45:09.846Z,2026-10-15T19:35:05.615Z,2.4000,partial-target,Relative Strength Leader
+system,WULF,2026-10-15T18:45:05.713Z,2026-10-15T19:35:05.615Z,1.2535,trailing-stop,Flow Confirm
+system,FRMI,2026-10-15T18:45:05.713Z,2026-10-15T19:15:06.224Z,0.8863,trailing-stop,Turtle 20 Breakout
+system,FRSH,2026-10-06T14:35:03.816Z,2026-10-15T18:45:05.713Z,1.5219,trailing-stop,Donchian Swing
+system,IT,2026-10-15T14:40:03.966Z,2026-10-15T18:45:05.713Z,0.0678,sell-signal,Flow Confirm
+system,CTSH,2026-10-15T16:35:04.007Z,2026-10-15T18:40:04.096Z,-0.7941,sell-signal,Flow Confirm
+system,ACN,2026-10-15T13:55:04.255Z,2026-10-15T18:30:05.668Z,1.3632,trailing-stop,Trend Pulse
+system,ETSY,2026-10-15T15:35:05.333Z,2026-10-15T16:35:04.007Z,-1.2797,sell-signal,Flow Confirm
+system,RPRX,2026-10-14T19:40:02.899Z,2026-10-15T16:25:03.807Z,2.0204,sell-signal,Flow Confirm
+system,ESTA,2026-10-15T14:50:03.526Z,2026-10-15T15:45:09.846Z,-1.8379,sell-signal,Turtle 20 Breakout
+system,GSK,2026-10-14T15:01:04.466Z,2026-10-15T15:35:05.333Z,4.6624,sell-signal,Flow Confirm
+system,BJ,2026-10-14T17:40:06.384Z,2026-10-15T15:35:05.333Z,1.5202,trailing-stop,Donchian Swing
+system,MU,2026-10-15T13:35:03.519Z,2026-10-15T15:15:03.849Z,6.0026,target,Mean Reversion
+system,RKT,2026-10-15T13:35:03.519Z,2026-10-15T14:50:03.526Z,-1.9283,sell-signal,Turtle 20 Breakout
+system,CHWY,2026-10-14T18:55:11.128Z,2026-10-15T14:40:03.966Z,4.2184,sell-signal,Flow Confirm
+system,MU,2026-10-15T13:35:03.519Z,2026-10-15T14:40:03.966Z,3.6016,partial-target,Mean Reversion
+system,AXSM,2026-10-15T13:30:49.422Z,2026-10-15T14:35:04.438Z,1.7294,trailing-stop,Trend Pulse
+system,DOCU,2026-10-14T19:05:11.141Z,2026-10-15T14:05:04.190Z,4.0200,partial-target,Trend Pulse
+system,OLLI,2026-10-14T16:00:07.495Z,2026-10-15T13:55:04.255Z,4.0000,target,Relative Strength Leader
+system,CHWY,2026-10-14T18:55:11.128Z,2026-10-15T13:40:08.729Z,4.0200,partial-target,Flow Confirm
+system,GOOGL,2026-10-15T13:35:03.519Z,2026-10-15T13:40:08.729Z,1.0248,target,Mean Reversion
+system,LQDA,2026-10-14T14:35:05.998Z,2026-10-15T13:35:03.519Z,-5.0001,stop,Relative Strength Leader
+system,GSK,2026-10-14T15:01:04.466Z,2026-10-15T13:35:03.519Z,4.0200,partial-target,Flow Confirm
+system,OLLI,2026-10-14T16:00:07.495Z,2026-10-15T13:35:03.519Z,2.4000,partial-target,Relative Strength Leader
+system,GFS,2026-10-14T17:10:13.240Z,2026-10-15T13:35:03.519Z,-5.0020,stop,Trend Pulse
+system,GOOGL,2026-10-14T17:30:07.971Z,2026-10-15T13:35:03.519Z,-1.4717,stop,Mean Reversion
+system,INTU,2026-10-14T14:01:08.263Z,2026-10-15T13:30:49.422Z,3.4000,target,EMA Reclaim Trend
+system,LQDA,2026-10-14T14:35:05.998Z,2026-10-15T13:30:49.422Z,2.4000,partial-target,Relative Strength Leader
+system,META,2026-10-14T19:25:03.021Z,2026-10-15T13:30:49.422Z,-2.6975,stop,Turtle 20 Breakout
 system,RVMD,2026-10-14T17:40:06.384Z,2026-10-14T19:40:02.899Z,0.0646,sell-signal,Flow Confirm
 system,AMZN,2026-10-14T19:05:11.141Z,2026-10-14T19:25:03.021Z,0.2469,target,Mean Reversion
 system,AMZN,2026-10-14T19:05:11.141Z,2026-10-14T19:20:10.769Z,0.1481,partial-target,Mean Reversion
